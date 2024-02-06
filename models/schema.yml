@@ -6,6 +6,11 @@ sources:
         description: greenweez raw data source 
         tables:
           - name: sales
+            freshness: 
+              warn_after:
+                count: 90
+                period: day
+            loaded_at_field: "CAST(date_date as TIMESTAMP)"
             identifier: raw_gz_sales
             description: sales of greenweez with an orders_id and products_id columns
             columns:
