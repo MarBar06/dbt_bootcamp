@@ -1,6 +1,10 @@
 --Operational margin = margin + shipping fee - log_cost - ship_cost
 
 SELECT 
+date_date,
+orders_id, 
+revenue, 
+margin, 
 shipping_fee, 
 logcost, 
 ship_cost, 
