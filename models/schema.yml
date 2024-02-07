@@ -43,7 +43,7 @@ sources:
                       
           
           - name: ship
-            identifier: raw_gz_ship
+            identifier: raw_gz__ship
             description: shippings of greenweez with the order_id and shipping cost, logcost and ship_cost
             columns: 
             - name: orders_id
@@ -55,7 +55,7 @@ sources:
               description: shipping charge
             - name: shipping fee 1
               description: shipping fee repeated
-            - name: logCost
+            - name: logcost
               description: logistics costs
             - name: ship_cost
               description: cost of shipping
